@@ -1,0 +1,143 @@
+.topbar{ 
+	/*  This is for header part*/
+	display: inline-flex;
+	flex-direction: row;
+	width: 100%;
+	background: #1A3441;
+}
+.logo{
+	/*This is just to look web page more attractive made by myself using photoshop cs6*/
+	width: 25%;
+	padding: 0;
+}
+.logo>img{
+	width: 9.375em;
+	padding-left: 15%;
+	height: 100%;
+}
+header{
+	height: 9.84em;
+}
+/*Now designing looks for navigations to look attractive and user-friendly*/
+.navigation{
+	width: 47%;
+}
+.nav ul{
+	display: flex;
+	flex-direction: row;
+}
+.nav ul li{
+	list-style: none;
+	height:8.275em;
+}
+.nav ul li a{
+	padding: 1.875em;
+	padding-top: 7.733em;
+	padding-bottom: 0;
+	text-decoration: none;
+	line-height: 4em;
+	font-size: 1.875em;
+	color: #fff;
+}
+/*This adds more function when cursor is hovered to navigations*/
+.nav  ul li:hover
+ {
+	background-color: #D7937A;
+	color: #111;
+	cursor: pointer;
+	text-shadow: -0.1875em 0.1875em 0.3125em #393939;
+}
+.nav ul li:hover{
+	transform: translateY(0.3125em);
+	transition: transform 0.6s ease;
+	box-shadow: -0.25em -0.25em 0.25em #e9e9e9;
+}
+.nav ul li#onlink{
+	background: #0AF;
+	color: #222;
+}
+.nav ul li#onlink:hover, 
+.nav ul li#onlink a:hover{
+	background: #D7D1AA;
+}
+
+section {
+	width : 100%;
+	background-color : blue;
+}
+
+p {
+	font-size : 2em;
+}
+
+.section_contact{
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+	
+.form{
+	margin: 0 auto;
+	width: 50%;
+}
+.form p{
+	color: #222;
+	padding: 1%;
+}
+
+label{
+	font-size: 1.5em;
+	color: #A34;
+}
+input{
+	width: 75%;
+	height: 3em;
+	border-radius: 0.8em;
+	border-color: #FEE9EB;
+	font-size: 1em;
+	padding-left: 1em;
+}
+input:focus,
+textarea:focus{
+	background: #A5AAD7;
+	border-color: #0AC986;
+	color: #000; 
+}
+textarea{
+	border-radius: 0.8em;
+	padding: 1% 1%;
+	width: 75%;
+	margin: 2% 0;
+	border: 0.2em groove #FEE9EB;
+	height: 12.5em;
+	font-size: 1em;
+}
+input[type="submit"]{
+	width: 25%;
+	height: 3.125em;
+	background: #0AC986;
+	font-size: 1em;
+	color: white;
+	outline: none;
+	border-radius: 0.8em;
+	border: 0;
+	cursor: pointer; 
+	padding: 1em 0.8em;
+	margin-left: 25%;
+	margin-bottom: 2em; 
+}
+#submit:hover{
+	box-shadow:0.3125em 0.3125em 0.3125em #111;
+	transform: translateY(-0.4em);
+	transition: transform 0.6s ease;
+	background: #fff;
+	color: #0AC986;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color : red;
+}
+	
